@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="drill" horiz-adv-x="1000" >
+<font-face font-family="drill" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="twitterrond" unicode="&#xe800;" d="M500 842c-272 0-492-220-492-492 0-272 220-492 492-492s492 220 492 492c0 272-220 492-492 492z m248-392c0-6 0-10 0-16 0-164-124-354-354-354-70 0-136 20-190 56 10-2 20-2 30-2 58 0 112 20 154 54-54 2-100 36-116 86 8-2 16-2 24-2 12 0 22 2 32 4-56 12-100 62-100 122 0 0 0 2 0 2 16-10 36-14 56-16-34 22-56 60-56 104 0 22 6 44 16 62 62-76 152-124 256-130 0 8 0 18 0 28 0 68 56 124 124 124 36 0 68-16 90-40 28 6 54 16 78 30-10-30-28-54-54-68 26 2 50 10 72 20-16-26-38-48-62-64z" horiz-adv-x="1000" />
+
+<glyph glyph-name="facebookrond" unicode="&#xe801;" d="M500 842c-272 0-492-220-492-492 0-272 220-492 492-492s492 220 492 492c0 272-220 492-492 492z m130-490h-86c0-136 0-304 0-304h-126c0 0 0 166 0 304h-60v108h60v70c0 50 24 128 128 128l94 0v-104c0 0-56 0-68 0-12 0-26-6-26-30v-64h96l-12-108z" horiz-adv-x="1000" />
+
+<glyph glyph-name="linkedinrond" unicode="&#xe802;" d="M774 120v190c0 102-54 150-128 150-58 0-86-32-100-56v48h-110c2-32 0-334 0-334h110v186c0 10 0 20 4 26 8 20 26 40 56 40 40 0 56-30 56-76v-178l112 4 0 0z m-454 378c38 0 62 26 62 58 0 32-24 58-62 58s-62-24-62-58c0-32 24-58 62-58l0 0z m180-638c-270 0-490 220-490 490 0 270 220 490 490 490s490-220 490-490c0-270-220-490-490-490z m-124 260v332h-110v-334h110z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>

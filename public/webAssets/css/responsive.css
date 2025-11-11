@@ -1,0 +1,885 @@
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1600px;
+    }
+}
+@media (max-width: 1599px) {
+    .hero-thumb img {
+        min-height: 260px;
+    }
+    .product-slide {
+        min-height: 310px;
+    }
+    .category-slider-wrap {
+        gap: 20px;
+    }
+    .category-area-wrapper {
+        grid-template-columns: 1fr 890px;
+        gap: 20px;
+    }
+
+    .tappetekal-wrapper .row {
+        --bs-gutter-x: 30px;
+    }
+    .teppetekal-blk {
+        padding: 30px;
+        padding-left: 40px;
+    }
+    .woodstone h3 {
+        font-size: 32px;
+    }
+    .teppetekal-blk h3 {
+        font-size: 34px;
+    }
+    .trodon-line p {
+        font-size: 28px;
+    }
+
+    .essunce-slider .product-slide {
+        min-height: 290px;
+    }
+    .tarkett-slider .product-slide {
+        min-height: 205px;
+    }
+    .tarkett-slider-title h2 {
+        font-size: 18px;
+    }
+    .section-title-2::before {
+        width: 70px;
+        right: 80px;
+    }
+
+    .detail-area-wrap {
+        grid-template-columns: 360px 1fr;
+        gap: 30px;
+    }
+    .single-nav {
+        height: 70px;
+    }
+    .detail-wrap-thumb {
+        width: 400px;
+    }
+    .detail-wrapper {
+        gap: 60px;
+    }
+    .cart-btn-wrap {
+        gap: 25px;
+    }
+    .cart-btn-wrap .cart-btn {
+        padding: 12px 20px;
+        gap: 20px;
+    }
+    .montage-wrapper .montage {
+        padding: 70px 20px;
+    }
+    .montage-wrapper .montage h3 {
+        font-size: 24px;
+    }
+    .vloer-bh-jaar-1 .teppetekal-blk h3 {
+        font-size: 24px;
+    }
+    .vloer-bh-jaar-1 .trodon-line p {
+        font-size: 20px;
+    }
+    .trodon-line h4 {
+        font-size: 20px;
+    }
+    .product-desc-bottom {
+        gap: 20px;
+    }
+}
+@media (max-width: 1399px) {
+    .logo img {
+        max-width: 240px;
+    }
+    .header-wrapper {
+        gap: 30px;
+    }
+    .category-dropdown .dropdown-toggle {
+        padding-right: 15px;
+        gap: 15px;
+        margin-right: 15px;
+    }
+    .action-btn i {
+        font-size: 20px;
+    }
+    .action-btn {
+        gap: 6px;
+    }
+    .action-btn img {
+        width: 20px;
+    }
+    .main-menu {
+        gap: 40px;
+    }
+    .main-menu li a {
+        padding: 15px 0;
+    }
+    .hero-wrapper {
+        grid-template-columns: 250px 1fr;
+    }
+    .sidebar {
+        width: 250px;
+    }
+    .hero-thumb h3 {
+        font-size: 32px;
+    }
+    .hero-thumb-wrap .row {
+        --bs-gutter-x: 20px;
+        --bs-gutter-y: 20px;
+    }
+    .sidebar-menu {
+        gap: 12px;
+    }
+    .sidebar-top span {
+        font-size: 14px;
+    }
+    .sidebar-top {
+        padding: 12px 20px;
+    }
+    .product-slide h4 {
+        font-size: 16px;
+        margin: 20px 0 10px;
+    }
+    .product-slide {
+        min-height: 270px;
+    }
+    .category-area-wrapper {
+        grid-template-columns: 1fr 800px;
+    }
+    .single-category span {
+        font-size: 18px;
+    }
+    .news-title {
+        font-size: 20px;
+    }
+    .news-desc {
+        font-size: 14px;
+    }
+    .news-area {
+        padding-bottom: 130px;
+    }
+    .newsletter-area {
+        padding: 70px 0;
+    }
+    .newsletter {
+        gap: 30px;
+        max-width: 735px;
+    }
+    .newsletter-title {
+        font-size: 20px;
+    }
+    .newsletter-wrap {
+        padding-right: 0;
+        gap: 60px;
+    }
+    .newsletter-input button {
+        padding: 0 20px;
+    }
+    .follow-us h4 {
+        font-size: 18px;
+    }
+    .follow-us {
+        gap: 20px;
+    }
+    .social-icon-wrap {
+        gap: 10px;
+    }
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+    .social-icon img {
+        width: 18px;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .hero-content p {
+        font-size: 18px;
+    }
+    .teppetekal-area-title {
+        font-size: 44px;
+    }
+    .teppetekal-blk h3 {
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    .teppetekal-blk {
+        padding-left: 30px;
+    }
+    .trodon-line p {
+        font-size: 24px;
+    }
+    .montage-input span {
+        font-size: 28px;
+        min-width: 70px;
+    }
+    .montage-input input {
+        font-size: 20px;
+    }
+    .trodon-line h4 {
+        font-size: 26px;
+    }
+
+    .essunce-slider .product-slide {
+        min-height: 260px;
+    }
+    .tarkett-slider .product-slide {
+        min-height: 190px;
+    }
+    .pagination-area {
+        padding: 60px 0;
+    }
+    .pagination .page-link {
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+    }
+    .article-title h2 {
+        font-size: 35px;
+    }
+    .article-desc p {
+        padding-right: 0;
+    }
+
+    .detail-area-wrap {
+        grid-template-columns: 320px 1fr;
+        gap: 20px;
+    }
+    .detail-wrap-thumb {
+        width: 350px;
+    }
+    .detail-wrapper {
+        gap: 40px;
+    }
+    .detail-title {
+        font-size: 30px;
+    }
+    .detail-desc {
+        margin-bottom: 30px;
+    }
+    .slider-nav {
+        padding: 25px 10px;
+    }
+    .single-nav {
+        height: 60px;
+    }
+    .img-action-btn button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .detail-img-content {
+        padding: 15px;
+    }
+    .cart-btn-wrap {
+        gap: 20px;
+    }
+    .cart-btn-wrap .cart-btn {
+        padding: 10px 15px;
+        gap: 18px;
+        font-size: 14px;
+    }
+    .montage-wrapper .montage {
+        padding: 50px 20px;
+    }
+    .montage-wrapper .montage h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .montage-wrapper .montage-input span {
+        font-size: 20px;
+        min-width: 50px;
+    }
+    .detail-area {
+        padding: 100px 0;
+    }
+    .product-desc-top h5 {
+        font-size: 14px;
+    }
+    .product-desc-top span {
+        font-size: 14px;
+    }
+    .product-desc-top {
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+    }
+    .product-desc-bottom * {
+        font-size: 14px;
+    }
+    .product-desc-bottom {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .product-desc-bottom span br {
+        display: none;
+    }
+    .product-desc-bottom span {
+        width: 100%;
+    }
+    .vloer-bh-jaar-1 .teppetekal-blk h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .vloer-bh-jaar-1 .trodon-line p {
+        font-size: 18px;
+    }
+    .trodon-line h4 {
+        font-size: 18px;
+    }
+    .vloer-bh-jaar-1 .teppetekal-blk {
+        padding: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header-top {
+        padding: 10px 0;
+    }
+    .header-top-wrap {
+        font-size: 14px;
+    }
+    .header-top-menu li a {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    .header-middle {
+        padding: 20px 0;
+    }
+    .header-wrapper {
+        gap: 20px;
+    }
+    .logo img {
+        max-width: 200px;
+    }
+    .category-dropdown .dropdown-toggle {
+        padding-right: 10px;
+        gap: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .header-search {
+        height: 50px;
+    }
+    .search-bar input {
+        font-size: 14px;
+    }
+    .search-btn {
+        width: 60px;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+    .action-btn {
+        font-size: 14px;
+    }
+    .header-action {
+        gap: 20px;
+    }
+    .main-menu {
+        gap: 30px;
+    }
+    .main-menu li a {
+        font-size: 14px;
+    }
+    .header-btn {
+        gap: 10px;
+        font-size: 14px;
+    }
+    .header-btn img {
+        width: 20px;
+    }
+    .hero-thumb img {
+        min-height: 245px;
+    }
+    .hero-thumb h3 {
+        font-size: 28px;
+    }
+    .hero-area {
+        padding: 60px 0 80px;
+    }
+    .hero-wrapper {
+        gap: 20px;
+    }
+    .product-tab {
+        gap: 30px;
+        margin-right: 140px;
+    }
+    .product-slider {
+        padding-top: 40px;
+    }
+    .category-area {
+        padding: 80px 0;
+    }
+    .category-area-wrapper {
+        grid-template-columns: 1fr 620px;
+        gap: 15px;
+    }
+    .category-slider-wrap {
+        gap: 10px;
+    }
+    .single-category span {
+        font-size: 16px;
+    }
+    .news-area {
+        padding-bottom: 100px;
+    }
+    .newsletter-area {
+        padding: 60px 0;
+    }
+    .newsletter-title {
+        font-size: 18px;
+    }
+    .newsletter {
+        gap: 20px;
+        max-width: 630px;
+    }
+    .newsletter-wrap {
+        gap: 40px;
+    }
+    .follow-us h4 {
+        font-size: 16px;
+    }
+    .follow-us {
+        gap: 15px;
+    }
+    .social-icon-wrap {
+        gap: 6px;
+    }
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 6px;
+    }
+    .social-icon img {
+        width: 16px;
+    }
+    .newsletter-input input {
+        font-size: 14px;
+    }
+    .newsletter-input button {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    .newsletter-input {
+        height: 45px;
+    }
+    .footer-widget span, .footer-widget a {
+        font-size: 14px;
+    }
+    .footer-tags a, .footer-tags span {
+        font-size: 14px;
+    }
+    .footer-tags {
+        gap: 6px;
+    }
+
+    .vloer-hero .hero-wrapper {
+        grid-template-columns: 50% 1fr;
+        gap: 30px;
+    }
+    .hero-content h1 {
+        font-size: 35px;
+    }
+    .hero-content p {
+        font-size: 16px;
+    }
+    .teppetekal-area-title {
+        font-size: 40px;
+    }
+    .tappetekal-wrapper .row {
+        --bs-gutter-x: 20px;
+    }
+    .teppetekal-blk h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .trodon-line p {
+        font-size: 20px;
+    }
+    .trodon-line h4 {
+        font-size: 20px;
+    }
+    .montage-input span {
+        font-size: 24px;
+        min-width: 60px;
+    }
+    .montage-input input {
+        font-size: 18px;
+        padding: 8px 20px;
+    }
+    .tarkett-area .row {
+        --bs-gutter-y: 40px;
+    }
+    .article-title h2 {
+        font-size: 30px;
+    }
+    .article-desc p {
+        font-size: 16px;
+    }
+
+    .detail-area {
+        padding: 80px 0;
+    }
+    .detail-area-wrap {
+        grid-template-columns: 100%;
+    }
+    .detail-area-left {
+        max-width: 400px;
+        margin: auto;
+    }
+    .vloer-bh-jaar-1 .tappetekal-wrapper .row {
+        --bs-gutter-x: 10px;
+    }
+    .vloer-bh-jaar-1 .teppetekal-blk h3 {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+    .vloer-bh-jaar-1 .trodon-line p {
+        font-size: 16px;
+    }
+    .trodon-line h4 {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .header-middle {
+        border-bottom: 1px solid #E7E7E7;
+    }
+    .hero-area {
+        padding: 40px 0 80px;
+    }
+    .hero-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .section-title h2 {
+        font-size: 22px;
+        line-height: 1;
+    }
+    .section-title::after {
+        width: 120px;
+        height: 2px;
+    }
+    .sidebar-toggle {
+        color: #fff;
+        background-color: #990000;
+        width: max-content;
+        font-size: 16px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        transition: all .3s;
+    }
+    .sidebar-toggle:hover {
+        background-color: #000;
+    }
+    .product-tab {
+        gap: 20px;
+        margin-right: 110px;
+    }
+    .product-tab .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .owl-nav .owl-prev, .owl-nav .owl-next {
+        width: 25px;
+        height: 25px;
+        font-size: 12px !important;
+    }
+    .owl-nav {
+        top: -76px;
+    }
+    .product-slide {
+        min-height: 255px;
+    }
+    .category-area {
+        padding: 60px 0;
+    }
+    .category-area-thumb {
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .category-slider .owl-nav {
+        top: -35px;
+    }
+    .news-slider .owl-nav {
+        top: -75px;
+    }
+    .news-title {
+        font-size: 18px;
+    }
+    .news-info {
+        font-size: 14px;
+    }
+    .newsletter-wrap {
+        flex-direction: column;
+    }
+    .newsletter {
+        max-width: 100%;
+    }
+    .footer-widget-wrap {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .vloer-hero .hero-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .tappetekal-area {
+        padding: 80px 0 50px;
+    }
+    .teppetekal-area-title {
+        font-size: 32px;
+    }
+    .tappetekal-wrapper .row {
+        --bs-gutter-x: 15px;
+    }
+    .woodstone h3 {
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .teppetekal-blk {
+        padding-left: 20px;
+        padding: 20px;
+    }
+    .trodon-line p {
+        font-size: 16px;
+    }
+    .trodon-line h4 {
+        font-size: 16px;
+    }
+    .teppetekal-blk h3 {
+        font-size: 18px;
+        margin-bottom: 22px;
+    }
+    .montage-input span {
+        font-size: 20px;
+        min-width: 50px;
+    }
+    .montage-input {
+        margin-bottom: 15px;
+        gap: 15px;
+    }
+    .montage-input input {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+    .main-content {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .essunce-slider .essunce-slider-wrap {
+        padding-right: 80px;
+    }
+    .essunce-slider .owl-nav {
+        right: 15px;
+    }
+    .essunce-slider .product-slide h4 {
+        font-size: 14px;
+    }
+    .essunce-slider .product-slide p {
+        font-size: 14px;
+    }
+    .essunce-slider .product-slide {
+        min-height: 230px;
+    }
+    .tarkett-slider .owl-nav {
+        right: -60px;
+    }
+    .detail-wrap-thumb {
+        width: 300px;
+    }
+    .detail-wrapper {
+        gap: 20px;
+    }
+    .detail-title {
+        font-size: 26px;
+    }
+    .detail-desc {
+        font-size: 14px;
+    }
+    .price h3 {
+        font-size: 28px;
+    }
+    .price h4 {
+        font-size: 20px;
+    }
+    .cart-btn-wrap {
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+    .montage-wrapper {
+        margin-top: 20px;
+    }
+    .vloer-bh-jaar-1 .tappetekal-wrapper .row {
+        --bs-gutter-x: 20px;
+        --bs-gutter-y: 20px;
+    }
+    .vloer-bh-jaar-1 .teppetekal-blk {
+        padding: 30px;
+        padding-left: 30px;
+    }
+    .category-slider-2 {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-middle {
+        padding: 15px 0;
+    }
+    .hero-area {
+        padding: 40px 0 60px;
+    }
+    .hero-thumb h3 {
+        font-size: 24px;
+        width: 100% !important;
+        border-radius: 0 0 5px 5px !important;
+    }
+    .product-area-title {
+        flex-direction: column;
+        justify-content: center !important;
+        gap: 30px;
+    }
+    .product-area-title::after {
+        display: none;
+    }
+    .essunce-area  .product-area-title::after {
+        display: block;
+    }
+    .product-tab {
+        gap: 20px;
+        margin-right: 0;
+    }
+    .product-slider {
+        padding-top: 30px;
+    }
+    .product-slider-wrap .owl-nav {
+        position: static;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .category-area-thumb {
+        height: 380px;
+        margin-bottom: 50px;
+    }
+    .category-slider {
+        padding-top: 30px;
+    }
+    .single-category span {
+        font-size: 14px;
+    }
+    .news-area {
+        padding-bottom: 80px;
+    }
+    .newsletter {
+        flex-direction: column;;
+    }
+    .newsletter-area {
+        padding: 50px 0;
+    }
+    .footer-widget-wrap {
+        padding: 40px 0;
+    }
+    .footer-widget h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .footer-widget-wrap {
+        row-gap: 20px;
+    }
+    .footer-widget span, .footer-widget a {
+        line-height: 2;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .tappetekal-area {
+        padding: 60px 0 50px;
+    }
+    .teppetekal-area-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .tappetekal-wrapper .row {
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 20px;
+    }
+    .essunce-slider .essunce-slider-wrap {
+        padding-right: 0;
+    }
+    .overview-hero .hero-thumb h3 {
+        bottom: 0 !important;
+        top: auto !important;
+        transform: translate(0) !important;
+        left: 0 !important;
+    }
+    .essunce-slider .product-slide {
+        min-height: 250px;
+    }
+    .essunce-slider .owl-nav {
+        right: 15px;
+        position: static;
+        justify-content: center;
+        transform: translate(0);
+        padding-top: 25px;
+    }
+    .essunce-slider .owl-nav .owl-prev {
+        display: inline-block;
+    }
+    .tarkett-slider {
+        padding-right: 0;
+    }
+    .essunce-slider .owl-nav .owl-next, .essunce-slider .owl-nav .owl-prev {
+        width: 35px;
+        height: 35px;
+        font-size: 18px !important;
+    }
+    .tarkett-slider .product-slide {
+        min-height: 220px;
+    }
+    .section-title-2::before {
+        display: none;
+    }
+    .pagination .page-link {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .article-title {
+        margin-bottom: 25px;
+    }
+    .main-wrapper {
+        padding-top: 40px;
+    }
+    .detail-area {
+        padding: 60px 0;
+    }
+    .detail-wrap-thumb {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .product-slide {
+        min-height: 260px;
+    }
+    .category-slider-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .essunce-slider .product-slide {
+        min-height: 256px;
+    }
+    .tarkett-slider .product-slide {
+        min-height: 220px;
+    }
+    .detail-area-left {
+        max-width: 100%;
+    }
+}

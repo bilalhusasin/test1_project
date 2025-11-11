@@ -1,0 +1,1975 @@
+
+/* FONTS
+--------------------------------------------------------------*/
+@font-face {
+    font-family: "chunkfive";
+    src: url(../fonts/chunkfive_roman.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url(../fonts/avenir_roman.otf) format("truetype");
+}
+
+/*
+@font-face {
+    font-family: 'arcticregular';
+    src: url(../fonts/arctic-webfont.woff2) format('woff2'),
+         url(../fonts/arctic-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+
+.geenpadding {
+    padding-left: 0px;
+    padding-right: 15px;
+}
+
+.geenpadding2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.geenpadding3 {
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* TOP MENU
+--------------------------------------------------------------*/
+.navbar {
+    min-height: 30px !important;
+}
+
+.top {
+    background-color: #465363;
+    border: none;
+    border-radius: 0px;
+    height: 30px !important;
+}
+
+.top .navbar-nav li a {
+    color: #fefefe;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #fefefe !important;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-form {
+    padding: 0px 0px;
+}
+
+.top .navbar-collapse {
+    padding-left: 15px !important;
+}
+
+.navbar .divider-vertical {
+    margin-top: 7px !important;
+    margin-bottom: 4px !important;
+    height: 15px;
+    margin: 0 9px;
+    border-right: 1px solid #fefefe;
+    border-left: 0px solid #fefefe;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .open a:focus {
+    color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu li a:active {
+    color: #000000 !important;
+}
+
+/* HEADER
+--------------------------------------------------------------*/
+
+.logo {
+    color: #465363;
+    font-family: "chunkfive", chunckfive, roman;
+    font-size: 36px;
+}
+
+.logo:hover {
+    color: #465363;
+    text-decoration: none;
+}
+
+.logo2 {
+    color: #990000;
+}
+
+.headerlogo {
+    display: block;
+    float: left;
+}
+
+.headerlogo2 {
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+.slogan {
+    font-family: "avenir", avenir, roman;
+    color: #465363;
+    margin-top: 0px;
+}
+
+.contactbuttons {
+    float: right;
+}
+
+.contactbutton {
+    background-color: #465363;
+    color: #ffffff;
+    border-radius: 0px;
+    border: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 18px;
+    margin-top: 22.3px;
+}
+
+.contactbutton:hover {
+    background-color: #990000;
+    border-radius: 0px;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contactbutton:focus {
+    background-color: #990000;
+}
+
+
+
+
+
+
+
+.hoofd {
+    margin-top: 30px;
+    background-color: #990000;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.hoofd .navbar-nav li a {
+    color: #fefefe;
+    font-family: 'Antic Slab', serif;
+    font-weight: bold;
+    padding: 15px 26px;
+}
+
+.hoofd .navbar-collapse {
+    padding-left: 15px !important;
+}
+
+.dropdown-menu li a {
+    background-color: #990000;
+}
+
+.dropdown-menu {
+    background-color: #990000;
+     border: 0px solid #ccc; 
+     border: 0px solid rgba(0, 0, 0, .15); 
+}
+
+.navbar-default .navbar-nav > .open > a {
+    color: #555;
+    background-color: #990000 !important;
+}
+
+.dropdown-menu li a:hover {
+    color: #000000 !important;
+}
+
+.dropdown-menu .open > a {
+    color: #555;
+    background-color: #990000 !important;
+}
+
+.dropdown-menu li a:hover {
+    color: #000000 !important;
+}
+
+.hidden { display: none; }
+
+.dropdown-menu .dropdown-menu2 .open > a {
+    color: #555;
+    background-color: #00ff00 !important;
+}
+
+.dropdown-menu2 li a {
+    background-color: #ffffff;
+    display: inline; 
+    padding: 3px 0px;
+     clear: both; 
+     font-weight: normal; 
+     line-height: 1.42857143; 
+}
+
+.dropdown-menu2 li a:hover {
+    background-color: #ffffff !important;
+    color: #990000 !important;
+    text-decoration: underline !important;
+}
+
+
+.dropdown-menu2 {
+    background-color: #ffffff !important;
+}
+
+
+
+
+.dropdown-menu2 {
+    background-color: #ffffff !important;
+    position: relative;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: none;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #ccc;
+    border: 0px solid rgba(0, 0, 0, .0);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .0);
+}
+}
+
+
+/* CONTENT
+--------------------------------------------------------------*/
+
+.zoeken {
+    width: 100%;
+    padding-left: 0px;
+}
+
+.zoeken2 {
+    border-radius: 0px;
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+    color: #7d7d7d;
+    width: 100% !important;
+}
+
+.zoeken3 {
+    color: #7d7d7d;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ebebeb;
+}
+
+.projecten {
+    height: 34px;
+    background-color: #f5f5f5;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    font-family: 'Antic Slab', serif;
+    font-size: 18px;
+}
+
+.projectensubpagina {
+    height: 34px;
+    background-color: #f5f5f5;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    font-family: 'Antic Slab', serif;
+    font-size: 18px;
+}
+
+.projectensubpagina2 {
+    background-color: #ffffff !important;
+}
+
+.projecten4 {
+    background-color: #f5f5f5;
+    height: 68px;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    font-family: 'Antic Slab', serif;
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.projecten2 {
+
+    background-color: #465363;
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.projecten3 {
+
+    background-color: #465363;
+    width: 100%;
+    position: ;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.projecten5 {
+
+    background-color: #c2c2c2;
+    float: left;
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.projecten6 {
+
+    background-color: #b7b7b7;
+    float: left;
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.projecten7 {
+
+    background-color: #a1a1a1;
+    float: left;
+    z-index: 1;
+    color: #000000;
+    text-align: center;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.balkproducten {
+    background-color: #a1a1a1;
+    padding-left: 0px;
+}
+
+
+.projectenslider {
+    text-align: center;
+    max-height: 34px;
+    display: inline-block;
+}
+
+.projectenslider a {
+    font-family: verdana;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.projectenslider a:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+
+.projectenslider .bx-wrapper {
+    position: relative;
+    margin: 0 auto 0px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    font-size: 14px;
+    max-width: 100% !important;
+}
+
+.projecten .divider-vertical {
+    width: 2px !important;
+    height: 15px;
+    margin-top: 4px;
+    border-right: 1px solid #000000;
+    border-left: 0px solid #000000;
+}
+
+.projecten4 .divider-vertical {
+    width: 2px !important;
+    height: 15px;
+    margin-top: 4px;
+    border-right: 1px solid #000000;
+    border-left: 0px solid #000000;
+}
+
+
+.kiezen {
+    margin-bottom: 54px;
+    border-radius: 0px;
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+    color: #7d7d7d;
+    padding: 20px;
+    width: 100% !important;
+    margin-top: 7px;
+}
+
+.kiezen li:before {    
+    font-family: 'FontAwesome';
+    content: '\f111';
+    font-size: 8px;
+    margin:0 10px 0 -40px;
+    color: #000;
+    vertical-align: middle;
+}
+
+.kiezen .dropdown-menu2 li:before {    
+    font-family: 'FontAwesome';
+    content:"\f067";
+    font-size: 8px;
+    margin:0 5px 0 -10px;
+    color: #000;
+    vertical-align: middle;
+}
+
+.kiezen2 {
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+ .mobiel .kiezen {
+    margin-top: 15px !important;
+}
+
+.mobiel .kiezen {
+    padding-right: 20px;
+}
+
+.mobiel .seizoensimg {
+    padding-left: 20px;
+}
+
+.kiezen h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 0px !important;
+}
+
+.prijs h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.kleuren h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.merken h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.leverbaar h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.toepassing h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.dessins h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+}
+
+.eigenschappen h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 25px !important;
+    cursor: pointer;
+}
+
+.staalaanvraag h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 0px !important;
+}
+
+.directofferte h3 {
+    font-family: 'Antic Slab', serif;
+    color: #465363;
+    margin-top: 0px !important;
+}
+
+.pijltje {
+    float: right;
+}
+
+.rotate {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.eigenschappen ul {
+    list-style-type: none;
+}
+
+
+.eigenschappen li:before {    
+    list-style-type: none;
+    font-size: 8px;
+    margin:0 10px 0 -40px;
+    color: #000;
+    vertical-align: middle;
+}
+
+.eigenschappen .dropdown-menu2 li:before {    
+    list-style-type: none;
+    font-size: 8px;
+    margin:0 5px 0 -10px;
+    color: #000;
+    vertical-align: middle;
+}
+
+
+
+
+
+.kiezen a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "verdana";
+}
+
+.kiezen a:hover li:before {
+    text-decoration: none;
+    color: #990000 !important;
+}
+
+.kiezen a:hover {
+    text-decoration: none;
+    color: #990000;
+}
+
+.kiezen a:hover span {
+    text-decoration: underline;
+}
+
+.seizoensactie {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.seizoensimg {
+    width: 100% !important;
+}
+
+.contentslider .bx-wrapper {
+    margin-top: 7px !important;
+    margin-bottom: 0px;
+}
+
+.producten {
+    font-family: 'Antic Slab', serif;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 0px;
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+    color: #7d7d7d;
+    padding: 20px;
+    width: 100% !important;
+    color: #000000;
+}
+
+.producten2 {
+    font-family: 'Antic Slab', serif;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 7px;
+    border-radius: 0px;
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+    color: #7d7d7d;
+    padding: 20px;
+    width: 100% !important;
+    color: #000000;
+}
+
+.meerproducten {
+    text-align: right;
+}
+
+.meerproductensubpagina {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.producten a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.producten a:hover {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+
+}
+
+.producten a:hover .productnaam {
+    text-decoration: underline;
+    color: #000000;
+    display: block;
+}
+
+
+.producten2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.producten2 a:hover {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+
+}
+
+.producten2 a:hover .productnaam {
+    text-decoration: underline;
+    color: #000000;
+    display: block;
+}
+
+.image { 
+    position: relative; 
+    margin-bottom: 30px;
+}
+
+.image h5 { 
+    position: absolute; 
+    top: 150px; 
+    left: 25px; 
+    color: #ffffff;
+ 
+}
+.image h4 { 
+    position: absolute; 
+    top: 180px;
+    color: #ffffff;
+    left: 25px;
+
+}
+
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fafafa;
+    font-family: "avenir", avenir, roman;
+    font-family: "avenir", avenir, roman;
+}
+
+.footer ul{
+    padding: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #990000;
+}
+
+a.social {
+    text-decoration: none;
+    color: #990000;
+}
+
+a.social:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footertext {
+    height: 205px;
+}
+
+.footertext {
+    height: 205px;
+}
+
+.footer2 {
+    background-color: #465363;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+
+
+.zoeken .navbar-form {
+    width: 100% !important;
+}
+
+.zoeken .has-feedback {
+    width: 100% !important;
+}
+
+.zoeken1 .navbar-form {
+    width: 100% !important;
+}
+
+.zoeken1 .has-feedback {
+    width: 100% !important;
+}
+
+
+.productensub {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    position: relative;
+}
+
+
+.productensub:hover {
+    background-color: #f1f1f1;
+}
+
+.productensub h4.prijs2 {
+    float: left;
+}
+
+.productensub:hover {
+    opacity: 1;
+}
+
+.productensub:hover .productenicon1 {
+    border-right: 2px solid #d2d2d2 !important;
+    display: inline-block;
+}
+.productensub:hover .productenicon2 {
+    border-left: 2px solid #d2d2d2 !important;
+    display: inline-block;
+}
+
+.productensub:hover .productenicon1:hover {
+    color: #990000;
+}
+
+.productensub:hover .productenicon2:hover {
+    color: #990000;
+}
+
+.productensub:hover a i{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.productensub:hover span span {
+    display: block;
+    top: 0; /* added */
+}
+/* added */
+.productensub:hover span span{
+    float: left;
+    top: 56%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+.productensub span span {
+    display: block;
+    position: absolute;
+    top: -100%;
+    display: none;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    color: inherit;
+}
+
+.productensub a:hover {
+    color: #000000;
+    display: inline-block;
+}
+
+
+.productenicon1 {
+    float: none;
+}
+.productenicon2 {
+    float: none;
+}
+
+.productcontact {
+    background-color: #cbcbcb;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+}
+
+.naam {
+    display: table;
+    width: 100%;
+}
+
+.telefoon {
+    display: table;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.input2 {
+    border-radius: 0px;
+    height: 25px;
+    width: 80%;
+    display: table-cell;
+    display: inline-block;
+    float: right;
+    border: 0px;
+}
+
+.input3 {
+    border-radius: 0px;
+    height: 25px;
+    margin-top: 5px;
+    width: 65%;
+    float: right;
+    border: 0px;
+}
+
+.input4 {
+    border-radius: 0px;
+    height: 25px;
+    margin-top: 7px;
+    width: 85%;
+    float: left;
+    border: 0px;
+}
+
+.inputtext3 {
+    float: none;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.inputtext4 {
+    margin-left: 15px;
+    float: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.input3box {
+    display: block;
+}
+
+.input4box {
+    display: block;
+}
+
+
+.input2text {
+    float: left;
+    display: table-cell;
+    margin-top: 7px;
+}
+    
+.belterugbutton {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 0px;
+    border: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.belterugbutton:hover {
+    background-color: #465363;
+    border-radius: 0px;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.belterugbutton:active {
+    background-color: #465363 !important;
+    border-radius: 0px;
+    border: none;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.belterugbutton:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.meerproductenbutton {
+    background-color: #990000;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+
+.meerproductenbutton:hover {
+    background-color: #465363;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.meerproductenbutton:active {
+    background-color: #465363 !important;
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.meerproductenbutton:focus {
+    background-color: #990000;
+    color: #ffffff;
+}
+
+button {
+    outline: none !important;
+}
+
+
+.actie {
+    background-color: #990000;
+    color: #ffffff;
+    float: right;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Antic Slab', serif;
+    font-size: 14px;
+    margin-top: -7px;
+    cursor: default;
+}
+
+.actie:hover{
+    background-color: #990000;
+    color: #ffffff;
+    cursor: default;
+}
+
+.oudeprijs {
+    color: #a8a8a8;
+    text-decoration: line-through;
+    float: left;
+    margin-top: 3px;
+}
+
+.productpagina {
+    margin-top: 7px;
+    position: relative;
+}
+
+.staalaanvraag {
+    background-color: #c2c2c2;
+    padding: 15px;
+    float: left;
+}
+
+
+.directofferte {
+    background-color: #c2c2c2;
+    padding: 15px;
+    float: left;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.staalaanvraag h3 {
+    margin-top: 0px;
+}
+
+.staalaanvraag .belterugbutton {
+    margin-top: 15px;
+}
+
+.productafbeelding {
+    position: relative;
+}
+
+.prijstag {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0; 
+    height: 0; 
+    border-top: 150px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 225px solid;
+    border-right-color: rgba(153, 0, 0, 0.7);
+}
+
+.productafbeelding h5 {
+    color: #ffffff;
+    position: absolute;
+    right: 6%;
+    bottom: 10%;
+/*    width: 70px;*/
+}
+
+.productafbeelding h2 {
+    color: #ffffff;
+    position: absolute;
+    right: 5.5%;
+    bottom: 0;
+/*    width: 70px;*/
+}
+
+.productinformatie {
+    height: 100%;
+    background-color: red;
+}
+
+.productinformatie h1 {
+    font-family: 'Antic Slab', serif;
+    margin-top: 0px;
+}
+
+.productinformatie h4 {
+    font-family: 'Antic Slab', serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    float: left;
+}
+
+.productinformatie h3 {
+    font-family: 'Antic Slab', serif;
+    font-size: 20px;
+    float: left;
+    margin-top: 0px;
+}
+
+.productinformatie p {
+    text-align: justify;
+}
+
+
+/* HEADER
+--------------------------------------------------------------*/
+
+
+
+.footerlogo {
+    color: #ffffff;
+    font-family: "chunkfive", chunckfive, roman;
+    font-size: 12px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.footerlogo4 {
+    width: auto;
+}
+
+.footerlogo:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footerlogo2 {
+    color: #990000;
+}
+
+.footerlogo {
+/*    display: block;*/
+
+}
+
+.footerlogo3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.footerslogan {
+    font-family: "avenir", avenir, roman;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 5px;
+    margin-bottom: 0px;
+}
+
+
+.footer2 a.link {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.footer2 a.link:hover {
+    text-decoration: underline;
+    color: #990000;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .kiezen {
+        margin-bottom: -1px;
+    }
+    .thumbnailproducten1 {
+        float: left;
+        padding-right: 50px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten2 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .thumbnailproducten3 {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .thumbnailproductenimg {
+        width: 100%;
+        padding: 0;
+    }
+    .thumbnailproducten4 {
+        float: left;
+        padding-right: 50px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten5 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .thumbnailproducten6 {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .thumbnailproductenimg {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .image h5 { 
+        position: absolute; 
+        top: 110px; 
+        left: 25px; 
+        color: #ffffff;
+    }
+    
+    .image h4 { 
+        position: absolute; 
+        top: 140px;
+        color: #ffffff;
+        left: 25px;
+    }
+    .footer h1 {
+        font-size: 35px !important;
+    }
+    
+    .projecten5 {
+        float: left;
+        z-index: 1;
+        text-align: center;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten6 {
+
+        float: left;
+        z-index: 1;
+        text-align: center;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten7 {
+
+        float: left;
+        z-index: 1;
+        text-align: center;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projectensubpagina {
+        font-size: 13.5px !important;
+    }
+    .belterugbutton {
+        font-size: 10px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .thumbnailproducten1 {
+        float: left;
+        padding-right: 20px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten2 {
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .thumbnailproducten3 {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .thumbnailproducten4 {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+    .thumbnailproducten5 {
+        padding-left: 0px;
+        padding-right: 20px;
+    }
+    .thumbnailproducten6 {
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+
+    .thumbnailproductenimg {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .image h5 { 
+        position: absolute; 
+        top: 90px; 
+        left: 25px; 
+        color: #ffffff;
+        font-size: 10px;
+    }
+    
+    .image h4 { 
+        position: absolute; 
+        top: 106px;
+        color: #ffffff;
+        left: 25px;
+        font-size: 13px;
+    }
+    .footertext2 {
+        height: 125px;
+    }
+    
+    .projecten5 {
+        float: left;
+        z-index: 1;
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten6 {
+
+        float: left;
+        z-index: 1;
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten7 {
+
+        float: left;
+        z-index: 1;
+        padding-top: 11.5px;
+        padding-bottom: 11.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projectensubpagina {
+        font-size: 8px !important;
+    }
+    .actie {
+        font-size: 14px;
+        position: absolute;
+        top: 10px;
+        right: 0px;
+    }
+
+    .actie:hover{
+        background-color: #990000;
+        color: #ffffff;
+        cursor: default;
+    }
+    .productensub h4.prijs2 {
+        font-size: 16px;
+    }
+    
+    .productnaam2 {
+        font-size: 16px;
+    }
+    .naam {
+        font-size: 12px;
+    }
+    .telefoon {
+        font-size: 12px;
+    }
+    .input2 {
+        width: 65%;
+    }
+    
+    .belterugbutton {
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    .productcontact {
+        height: 129.933px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .thumbnailproducten1 {
+        float: left;
+        padding-right:100px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .thumbnailproducten3 {
+        padding-left: 100px;
+        padding-right: 0px;
+    }
+    .thumbnailproducten4 {
+        float: left;
+        padding-right:100px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten5 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .thumbnailproducten6 {
+        padding-left: 100px;
+        padding-right: 0px;
+    }
+
+    .thumbnailproductenimg {
+        width: 100%;
+        padding: 0;
+    }
+    .productcontact {
+        height: 153.267px !important;
+    }
+    .input2 {
+        width: 80% !important;
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .mobiel {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
+    .footerlogo4 {
+        float: right;
+    }
+    .productcontact {
+        height: 136.783px;
+    }
+    .input2 {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .headerlogo2 {
+        color: #465363;
+        font-family: "chunkfive", chunckfive, roman;
+        font-size: 25px !important;
+    }
+    .slogan {
+        font-size: 12px;
+    }
+    .hoofd .navbar-nav li a {
+        padding: 15px 12px;
+        font-size: 13px !important;
+    }
+    .mobiel {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .contactbutton {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 427px) {
+    .contactbutton {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .contactbutton {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 347px) {
+    .contactbutton {
+        font-size: 11px;
+    }
+    .contactbuttons .btn {
+        padding: 6px 7px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .contactbutton {
+        font-size: 10px;
+    }
+    .contactbuttons .btn {
+        padding: 6px 5px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top .navbar-collapse.collapse {
+        display: block!important;
+    }
+    .top .navbar-nav>li, .navbar-nav {
+        float: left !important;
+    }
+    .top .navbar-nav.navbar-right:last-child {
+        margin-right: -15px !important;
+    }
+    .top .navbar-right {
+        float: right!important;
+    }
+    .top .navbar-nav li a {
+        color: #fefefe;
+        margin-top: -3px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+    
+    .navbar .divider-vertical {
+        margin-top: -1px !important;
+        margin-bottom: 0px !important;
+        height: 15px;
+        margin: 0 9px;
+        border-right: 1px solid #fefefe;
+        border-left: 0px solid #fefefe;
+    }
+    
+    .projecten {
+        margin-top: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    
+    .zoeken {
+        margin-left: 0px;
+    }
+    
+    .zoeken1 {
+        padding-right: 0px;
+    }
+    
+    .image h5 { 
+        top: 220px; 
+        font-size: 16px;
+    }
+    
+    .image h4 { 
+        top: 240px;
+        font-size: 22px;
+    }
+    .footerlogo4 {
+        padding-top: 25px;
+        margin: 0 auto;
+        width: 130px;
+    }
+    .footertext2 {
+        height: 205px;
+    }
+    
+    .projecten5 {
+        float: left;
+        z-index: 1;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten6 {
+
+        float: left;
+        z-index: 1;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten7 {
+
+        float: left;
+        z-index: 1;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projectensubpagina {
+        font-size: 13px !important;
+    }
+    .productcontact {
+        height: 131.117px;
+    }
+    
+    .navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:hover, .navbar-default .navbar-nav .open a:focus {
+        color: #fff !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+
+    .mobiel .seizoensimg {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .mobiel .col-xs-4 {
+        width: 100%;
+    }
+    .mobiel .col-xs-8 {
+        width: 100%;
+    }
+    .productcontact {
+        height: 134.2px;
+    }
+}
+
+@media screen and (max-width: 604px) {
+    .productcontact {
+        height: 139.067px !important;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .productcontact {
+        height: 136.90px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .image h5 { 
+        top: 180px; 
+        font-size: 12px;
+    }
+    
+    .image h4 { 
+        top: 200px;
+        font-size: 18px;
+    }
+    
+    .mobiel2 {
+        display: block; 
+    }
+    .desktop2 {
+        display: none; 
+    }
+    
+    .projecten4 {
+        height: 115px;
+    }
+    
+    .projecten5 {
+        float: left;
+        width: 100%;
+        z-index: 1;
+        text-align: left;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten6 {
+
+        float: left;
+        width: 100%;
+        z-index: 1;
+        text-align: left;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projecten7 {
+
+        float: left;
+        width: 100%;
+        z-index: 1;
+        text-align: left;
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .projectensubpagina {
+        font-size: 13.5px !important;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .mobiel2 {
+        display: none; 
+    }
+    .desktop2 {
+        display: block; 
+        padding-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .image h5 { 
+        top: 150px; 
+        font-size: 10px;
+    }
+    
+    .image h4 { 
+        top: 170px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .producten .producten1 {
+        width: 100%;
+    }
+    
+    .blokken .col-xs-6 {
+        width: 100%;
+    }
+    
+    .thumbnailproducten1 {
+        float: left;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .thumbnailproducten3 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .thumbnailproducten4 {
+        float: left;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .thumbnailproducten5 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .thumbnailproducten6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   .image h5 { 
+        top: 325px; 
+        font-size: 16px;
+    }
+    
+    .image h4 { 
+        top: 350px;
+        font-size: 22px;
+    }
+    
+    .mobiel .geenpadding {
+        padding-right: 0px;
+    }
+    .mobiel .seizoensimg {
+        padding-left: 0px;
+    }
+    .mobiel .col-xs-6 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+   .image h5 { 
+        top: 275px; 
+        font-size: 16px;
+    }
+    
+    .image h4 { 
+        top: 300px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+   .image h5 { 
+        top: 225px; 
+        font-size: 16px;
+    }
+    
+    .image h4 { 
+        top: 250px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+   .image h5 { 
+        top: 190px; 
+        font-size: 16px;
+    }
+    
+    .image h4 { 
+        top: 215px;
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    
+   .image h5 { 
+        top: 190px; 
+        font-size: 12px;
+    }
+    
+    .image h4 { 
+        top: 215px;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 330px) {
+    
+   .image h5 { 
+        top: 170px; 
+        font-size: 10px;
+    }
+    
+    .image h4 { 
+        top: 190px;
+        font-size: 14px;
+    }
+}
+    
+@media screen and (max-width: 425px) {
+    .top .navbar-nav li a {
+        font-size: 11px;
+    }
+}
+    
+@media screen and (max-width: 410px) {
+    .footertext {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .footertext2 {
+        width: 100%;
+    }
+    .footertext2 {
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and (max-width: 365px) {
+    .top .navbar-nav li a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .top .navbar-nav li a {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .top .nav li a {
+        position: relative;
+        display: block;
+        padding: 0px 9px;
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .headerlogo2 {
+        font-size: 20.9px !important;
+    }
+    
+    .producten h4 {
+        font-size: 14px !important;
+    }
+    
+    .producten h5 {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .projecten4 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .projecten4 {
+        font-size: 10px;
+    }
+}
+
+.filters {
+    font-size: 16px;
+}
+
+.filters {
+    padding-left: 0px !important;
+}
+
+.filters input {
+  display: none;
+}
+
+.filters .icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.filters input:checked + .icon{
+    background-color: #333333;
+}
+
+.filters input {
+  display: inline\9;
+}
+
+.filters .icon {
+  display: none\9;
+}
+
+.filters label {
+  cursor: pointer;
+}
+
+
+.filters .icon {
+    background: #ffffff;
+    border: 1px solid;
+    border-color: #333333;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+    margin: 0px;
+    height: 12px;
+    width: 12px;
+    padding: 0px;
+    line-height: 12px;
+    
+}
+
+
