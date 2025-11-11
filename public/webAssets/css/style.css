@@ -1439,3 +1439,37 @@ input[type="range"]::-moz-range-thumb {
 .btnDiv{
 	margin-top: 20px;
 }
+
+.teppetekal-blk.woodstone {
+    position: relative; /* Ensure the triangle is positioned relative to this block */
+    overflow: hidden; /* Hide parts of the triangle that go outside */
+}
+
+/* Red triangle background */
+.sold-triangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;               /* Adjust triangle size */
+    height: 120px;
+    background: #ff000066;        /* Solid red matching the bottom bar */
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+    z-index: 10;                /* Ensure it appears above the image */
+}
+
+/* Rotated "VERKOCHT" text */
+.sold-text {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;             /* Larger and readable */
+    transform: rotate(-45deg);  /* Matches triangle orientation */
+    transform-origin: 0 0;
+    text-transform: uppercase;  /* Ensure consistent caps */
+    white-space: nowrap;
+    z-index: 20;                /* Above the triangle */
+}
+
+/* new css end */
